@@ -19,6 +19,21 @@ Route::group(['middleware'=>'web'],function(){
     Route::auth();
     Route::get('/home', 'HomeController@index');
 
-    
+    Route::get('/example',function(){
+//       $user=\App\User::with('roles')->get();
+//       return $user;
+
+        $roles=\App\Role::with('user')->get();
+
+        return $roles;
+    });
+
+
+    /*Admin Routes*/
+    Route::group(['prefix'=>'admin','namespace'=>'admin'],function (){
+
+        Route::resource('/users','AdminUsersController');
+
+    });
 });
 
