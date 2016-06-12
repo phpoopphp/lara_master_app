@@ -10,6 +10,7 @@
 			<thead>
 			<tr>
 				<th>No : </th>
+				<th>Photo</th>
 				<th>Firstname</th>
 				<th>Role</th>
 				<th>Active</th>
@@ -22,6 +23,13 @@
 				@foreach($users as $user)
 					<tr>
 						<td>{{$user->id}}</td>
+						<td>
+							@if(count($user->photo))
+								{{ Html::image($user->photo->file,null,['class'=>'img-responsive','width'=>150]) }}
+							@else
+								Yoxdur
+							@endif
+						</td>
 						<td>{{$user->name}}</td>
 						<td>{{$user->roles->name}}</td>
 						<td>

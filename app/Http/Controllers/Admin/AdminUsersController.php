@@ -23,7 +23,7 @@ class AdminUsersController extends AdminController
      */
     public function index()
     {
-        $users=User::all();
+        $users=User::with('photo')->get();
         return view('admin.users.index',compact('users'));
     }
 
@@ -60,8 +60,7 @@ class AdminUsersController extends AdminController
             $ext=$file->getClientOriginalExtension();
             $name=$file->getClientOriginalName();
             $file_name=date('d-m-Y-h-i-s').'_'.sha1($name).'.'.$ext;
-            $path=public_path()."images";
-            $upload=$file->move($path,$file_name);
+            $upload=$file->move("images",$file_name);
             $photo=Photo::create(['file'=>"images/".$file_name]);
             return $photo->id;
         }

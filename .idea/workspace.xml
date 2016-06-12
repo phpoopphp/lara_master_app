@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37354dad-3434-43af-bd8a-ca7d4597da4d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/lara_app.iml" afterPath="$PROJECT_DIR$/.idea/lara_app.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/12-06-2016-12-45-09_a27e70b6a337130fd0776147e02af80a55ade35a.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_ide_helper.php" afterPath="$PROJECT_DIR$/_ide_helper.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminUsersController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminUsersController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/app.css" afterPath="$PROJECT_DIR$/public/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/app.css.map" afterPath="$PROJECT_DIR$/public/css/app.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/libs.css" afterPath="$PROJECT_DIR$/public/css/libs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/libs.css.map" afterPath="$PROJECT_DIR$/public/css/libs.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/css/libs/blog-post.css" afterPath="$PROJECT_DIR$/resources/assets/css/libs/blog-post.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/sass/app.scss" afterPath="$PROJECT_DIR$/resources/assets/sass/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/admin.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/admin.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/categories/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/categories/create.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" />
     </list>
     <ignored path="lara_app.iws" />
@@ -45,21 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2550">
-              <caret line="34" column="54" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AdminUsersController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AdminUsersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+            <state relative-caret-position="929">
+              <caret line="61" column="68" selection-start-line="61" selection-start-column="68" selection-end-line="61" selection-end-column="68" />
               <folding>
                 <element signature="e#46#87#0#PHP" expanded="true" />
               </folding>
@@ -67,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/admin.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="321">
@@ -100,8 +77,8 @@
       <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1439">
-              <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+            <state relative-caret-position="1235">
+              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -114,6 +91,23 @@
               <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/users/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="27" column="110" selection-start-line="27" selection-start-column="110" selection-end-line="27" selection-end-column="110" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="12-06-2016-12-45-09_a27e70b6a337130fd0776147e02af80a55ade35a.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/images/12-06-2016-12-45-09_a27e70b6a337130fd0776147e02af80a55ade35a.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -132,16 +126,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1092">
               <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form_error.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/includes/form_error.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -166,7 +150,6 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/resources/assets/sass/app.scss" />
         <option value="$PROJECT_DIR$/resources/assets/css/libs/blog-post.css" />
-        <option value="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/includes/form_error.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/UserStoreRequest.php" />
@@ -175,8 +158,9 @@
         <option value="$PROJECT_DIR$/database/migrations/2016_06_12_100054_create_photos_table.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/app/Photo.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminUsersController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/admin.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminUsersController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" />
       </list>
     </option>
   </component>
@@ -495,7 +479,39 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="publicimages" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lara_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lara_app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lara_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lara_app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -508,20 +524,21 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="ad&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/resources/views/admin/admin.blade.php&#10;User&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/app/User.php&#10;photo&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/database/migrations/2016_06_12_100054_create_photos_table.php&#10;photo_id&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/database/migrations/2016_06_12_093249_add_photo_id_to_users_table.php&#10;Adm&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/app/Http/Controllers/Admin/AdminUsersController.php&#10;app.&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/config/app.php&#10;Ad&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/app/Http/Controllers/Admin/AdminUsersController.php&#10;app.sc&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/resources/assets/sass/app.scss&#10;gulp&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/gulpfile.js&#10;Admin&#9;null&#9;null&#10;Role&#9;null&#9;null&#10;role&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/database/migrations/2016_06_09_205059_create_roles_table.php&#10;user&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/database/migrations/2014_10_12_000000_create_users_table.php&#10;app.php&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/config/app.php&#10;rout&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/app/Http/routes.php" />
+    <property name="SearchEverywhereHistoryKey" value="ind&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/resources/views/admin/users/index.blade.php&#10;c&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/app/Http/Controllers/Admin/AdminUsersController.php&#10;ad&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/resources/views/admin/admin.blade.php&#10;User&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/app/User.php&#10;photo&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/database/migrations/2016_06_12_100054_create_photos_table.php&#10;photo_id&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/database/migrations/2016_06_12_093249_add_photo_id_to_users_table.php&#10;Adm&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/app/Http/Controllers/Admin/AdminUsersController.php&#10;app.&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/config/app.php&#10;Ad&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/app/Http/Controllers/Admin/AdminUsersController.php&#10;app.sc&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/resources/assets/sass/app.scss&#10;gulp&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/gulpfile.js&#10;Admin&#9;null&#9;null&#10;Role&#9;null&#9;null&#10;role&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/database/migrations/2016_06_09_205059_create_roles_table.php&#10;user&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/database/migrations/2014_10_12_000000_create_users_table.php&#10;app.php&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/config/app.php&#10;rout&#9;FILE&#9;file://C:/xampp/htdocs/laravel_master/lara_app/app/Http/routes.php" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\laravel_master\lara_app\public\images" />
+      <recent name="C:\xampp\htdocs\laravel_master\lara_app\app\Http\Controllers\Admin" />
+      <recent name="C:\xampp\htdocs\laravel_master\lara_app\resources\views\admin" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\laravel_master\lara_app\resources\views\admin" />
       <recent name="C:\xampp\htdocs\laravel_master\lara_app\public" />
       <recent name="C:\xampp\htdocs\laravel_master\lara_app\resources\assets" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\laravel_master\lara_app\app\Http\Controllers\Admin" />
-      <recent name="C:\xampp\htdocs\laravel_master\lara_app\resources\views\admin" />
     </key>
   </component>
   <component name="RunManager">
@@ -572,12 +589,12 @@
       <workItem from="1465487963418" duration="3199000" />
       <workItem from="1465588965642" duration="1674000" />
       <workItem from="1465590696254" duration="5681000" />
-      <workItem from="1465722956882" duration="3348000" />
+      <workItem from="1465722956882" duration="4741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13902000" />
+    <option name="totallyTimeSpent" value="15295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3872" height="2092" extended-state="6" />
@@ -622,14 +639,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/UserStoreRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2958">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/includes/form_error.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -877,14 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/users/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2856">
-          <caret line="28" column="68" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16320">
@@ -936,26 +937,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_06_12_093249_add_photo_id_to_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_06_12_100054_create_photos_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1439">
-          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -968,20 +953,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="129" column="68" selection-start-line="129" selection-start-column="68" selection-end-line="129" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/12-06-2016-12-45-09_a27e70b6a337130fd0776147e02af80a55ade35a.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_06_12_093249_add_photo_id_to_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AdminUsersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+        <state relative-caret-position="929">
+          <caret line="61" column="68" selection-start-line="61" selection-start-column="68" selection-end-line="61" selection-end-column="68" />
           <folding>
             <element signature="e#46#87#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/admin.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/users/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="129" column="68" selection-start-line="129" selection-start-column="68" selection-end-line="129" selection-end-column="68" />
+        <state relative-caret-position="306">
+          <caret line="27" column="110" selection-start-line="27" selection-start-column="110" selection-end-line="27" selection-end-column="110" />
           <folding />
         </state>
       </provider>
