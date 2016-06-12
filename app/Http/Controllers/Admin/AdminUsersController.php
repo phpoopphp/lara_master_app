@@ -34,7 +34,7 @@ class AdminUsersController extends AdminController
      */
     public function create()
     {
-        return view('admin.categories.create');
+        return view('admin.users.create');
     }
 
     /**
@@ -86,7 +86,8 @@ class AdminUsersController extends AdminController
      */
     public function edit($id)
     {
-        //
+        $user=User::findOrFail($id);
+        return view('admin.users.edit',compact('user'));
     }
 
     /**
@@ -98,7 +99,18 @@ class AdminUsersController extends AdminController
      */
     public function update(Request $request, $id)
     {
-        //
+        $user=User::findOrFail($id);
+        if(trim($request->get('password'))==''){
+            $input=$request->except('password');
+        }else{
+            $input=$request->all();
+        }
+
+        if($request->hasFile('photo')){
+            $input['photo_id']=$this->fileUpload($request);
+        }
+        $user->update($input);
+        return redirect(route('admin.users.index'));
     }
 
     /**

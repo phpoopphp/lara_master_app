@@ -30,7 +30,7 @@ Route::group(['middleware'=>'web'],function(){
 
 
     /*Admin Routes*/
-    Route::group(['prefix'=>'admin','namespace'=>'admin'],function (){
+    Route::group(['prefix'=>'admin','namespace'=>'admin','middleware'=>'admin'],function (){
 
         Route::resource('/users','AdminUsersController');
 

@@ -17,6 +17,7 @@
 				<th>Email</th>
 				<th>Created at</th>
 				<th>Updated at</th>
+				<th>Action</th>
 			</tr>
 			</thead>
 			<tbody>
@@ -40,6 +41,9 @@
 						<td>{{$user->email}}</td>
 						<td>{{$user->created_at->diffForHumans()}}</td>
 						<td>{{$user->updated_at->diffForHumans()}}</td>
+						<td>
+							<a href="{{route('admin.users.edit',$user->id)}}" class="btn btn-warning btn-xs">Edit</a>
+						</td>
 					</tr>
 				@endforeach
 			</tbody>

@@ -38,4 +38,9 @@ class User extends Authenticatable
     {
         return $this->belongsTo(Photo::class,'photo_id');
     }
+
+    public function isAdmin()
+    {
+        return $this->roles->name=='administrator'?true:false;
+    }
 }
