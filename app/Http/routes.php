@@ -33,6 +33,7 @@ Route::group(['middleware'=>'web'],function(){
     Route::group(['prefix'=>'admin','namespace'=>'admin','middleware'=>'admin'],function (){
 
         Route::resource('/users','AdminUsersController');
+        Route::resource('/posts','PostsController');
 
     });
 });

@@ -4,7 +4,11 @@
 
     <div class="row">
         <div class="col-sm-3">
-            {{ Html::image($user->photo->file,null,['class'=>'img-responsive img-rounded']) }}
+           @if(count($user->photo)>0)
+                {{ Html::image($user->photo->file,null,['class'=>'img-responsive img-rounded']) }}
+           @else
+                Resim yox
+           @endif
         </div>
         <div class="col-sm-9">
             @include('admin.includes.form_error')

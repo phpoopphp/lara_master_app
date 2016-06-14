@@ -121,6 +121,20 @@ class AdminUsersController extends AdminController
      */
     public function destroy($id)
     {
-        //
+        if(auth()->user()->id==$id){
+            \Session::flash('action','Siz ozunuzu sile bilmezsiniz');
+            return back();
+        }else{
+            $user =User::findOrFail($id);
+            $this->deletePhoto($user->photo);
+            $user->delete();
+            \Session::flash('action','User Xetasiz silindi');
+            return back();
+        }
+    }
+
+    private function deletePhoto(Photo $photo)
+    {
+        \File::delete($photo->file);
     }
 }

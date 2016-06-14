@@ -3,6 +3,14 @@
   <h1 class="page-header">
 	  Users lists
   </h1>
+  @if(Session::has('action'))
+	  	<div class="alert">
+	  		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+	  		<strong>Diqqet</strong> {{Session::get('action')}}
+	  	</div>
+  @else
+	  yoooox
+  @endif
 
 	{{--Table--}}
   	<div class="table-responsive">
@@ -43,6 +51,9 @@
 						<td>{{$user->updated_at->diffForHumans()}}</td>
 						<td>
 							<a href="{{route('admin.users.edit',$user->id)}}" class="btn btn-warning btn-xs">Edit</a>
+							{!! Form::open(['route'=>['admin.users.destroy',$user->id],'method'=>'delete','style'=>'display:inline-block;']) !!}
+								{!! Form::submit('Delete',['class'=>'btn btn-danger btn-xs']) !!}
+							{!! Form::close() !!}
 						</td>
 					</tr>
 				@endforeach
