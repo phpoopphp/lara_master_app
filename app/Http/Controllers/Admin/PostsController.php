@@ -79,7 +79,8 @@ class PostsController extends AdminController
      */
     public function edit($id)
     {
-        //
+        $post=Post::with('photo')->find($id);
+        return view('admin.posts.edit',compact('post'));
     }
 
     /**
@@ -91,7 +92,16 @@ class PostsController extends AdminController
      */
     public function update(Request $request, $id)
     {
-        //
+       $post=auth()->user()->posts()->whereId($id)->first();
+       $input=$request->all();
+       if($request->hasFile('photo')){
+           $input['photo_id']=$this->fileUpload($request);
+           \File::delete($post->photo->file);
+       }else{
+           $input['photo_id']=$post->photo_id;
+       }
+       $post->update($input);
+       return redirect()->route('admin.posts.index');
     }
 
     /**
@@ -102,6 +112,9 @@ class PostsController extends AdminController
      */
     public function destroy($id)
     {
-        //
+        $post=Post::findOrFail($id);
+        \File::delete($post->photo->file);
+        $post->delete();
+        return back();
     }
 }

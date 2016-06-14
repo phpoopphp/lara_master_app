@@ -31,7 +31,12 @@
         			<td>{{$post->title}}</td>
         			<td>{{$post->created_at->diffforHumans()}}</td>
         			<td>{{$post->updated_at->diffforHumans()}}</td>
-        			<td>action</td>
+        			<td>
+						<a href="{{route('admin.posts.edit',$post->id)}}" class="btn btn-warning btn-xs">Edit</a>
+						{!! Form::open(['route'=>['admin.posts.destroy',$post->id],'method'=>'delete','style'=>'display:inline-block;']) !!}
+							{!! Form::submit('Delete',['class'=>'btn btn-danger btn-xs']) !!}
+						{!! Form::close() !!}
+					</td>
         		</tr>
             @endforeach
         	</tbody>
